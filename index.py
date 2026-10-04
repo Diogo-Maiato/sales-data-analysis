@@ -1,7 +1,10 @@
 import pandas as pd
+from pathlib import Path
 
-caminho_entrada = r"C:\Users\ricar\OneDrive\Documentos\GitHub\sales-data-analysis\data\Base Vendas - 2021.xlsx"
-caminho_saida = r"C:\Users\ricar\OneDrive\Documentos\GitHub\sales-data-analysis\Analise_Vendas.xlsx"
+pasta_projeto = Path(__file__).resolve().parent
+
+caminho_entrada = pasta_projeto / "data" / "Base Vendas - 2021.xlsx"
+caminho_saida = pasta_projeto / "Analise_vendas.xlsx" 
 
 df = pd.read_excel(caminho_entrada)
 
