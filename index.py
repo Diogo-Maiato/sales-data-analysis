@@ -1,7 +1,7 @@
 import pandas as pd
 
-caminho_entrada = r"C:\Users\ricar\OneDrive\Documentos\GitHub\sales-data-analysist\data\Base Vendas - 2021.xlsx"
-caminho_saida = r"C:\Users\ricar\OneDrive\Documentos\GitHub\sales-data-analysist\Analise_Vendas.xlsx"
+caminho_entrada = r"C:\Users\ricar\OneDrive\Documentos\GitHub\sales-data-analysis\data\Base Vendas - 2021.xlsx"
+caminho_saida = r"C:\Users\ricar\OneDrive\Documentos\GitHub\sales-data-analysis\Analise_Vendas.xlsx"
 
 df = pd.read_excel(caminho_entrada)
 
